@@ -1,0 +1,140 @@
+*{
+    margin: 0;
+    padding: 0;
+  }
+  body{
+    font-family:poppins;
+  }
+  .wrapper{
+    width: 1170px;
+    margin: 0 auto;
+  }
+  .logo{
+    width: 30%;
+    position: relative;
+    left: -100px;
+    padding: 30px 0 0;
+    font-size: 25px;
+    font-weight: 700;
+    color: #fff;
+  }
+  .head{
+    position:absolute ;
+    top: 5px;
+    left:300px
+  }
+  
+  nav{
+    width: 75%;
+    float: right;
+    text-align: right;
+    padding: 30px 0 0;
+  }
+  nav a{
+    text-decoration: none;
+    color: #fff;
+    padding: 15px 20px;
+  }
+  .navigation{
+    height: 60px;
+  }
+  .banner-area{
+    animation-name: animate;
+    animation-duration: 7s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    height: 100vh;
+  }
+  .text-area{
+    text-align: center;
+    width: 75%;
+    margin: 0 auto;
+  }
+  .text-area h2{
+    font-size: 75px;
+    color: #fff;
+    margin: 10% 0 0;
+  }
+  .text-area h3{
+    color: #fff;
+    text-transform: uppercase;
+    margin: 0 0 15px;
+    font-size: 35px;
+  }
+  .text-area a{
+    text-decoration: none;
+    background: #262626;
+    color: #fff;
+    padding: 15px 60px;
+    font-size: 18px;
+    display: inline-block;
+    margin-top: 5%;
+    border-radius: 50px;
+  }
+  .container{
+    
+    position: relative;
+    top:170px;
+    border: 5px solid none; 
+    height: 400px;
+    width: 100%;
+    
+  }
+  .text {
+    position: relative;
+   
+  }
+
+  .text-area{
+    position: relative;
+    height:250px;
+    width: 100%;
+    margin :auto;
+  }
+  
+
+  .submit{
+        position: relative;
+        top:-30px;
+        
+        
+  }
+
+  @keyframes animate {
+    0%{
+      background: #29306a;
+    }
+    25%{
+      background: #e60084;
+    }
+    50%{
+      background: #ad7c66;
+    }
+    75%{
+      background: #005762;
+    }
+    100%{
+      background: #4c9ab6;
+    }
+  }
+  
+  
+  /* ignore the code below */
+  
+  .link-area
+  {
+    position:fixed;
+    bottom:20px;
+    left:20px;  
+    padding:15px;
+    border-radius:40px;
+    background:tomato;
+  }
+  .link-area a
+  {
+    text-decoration:none;
+    color:#fff;
+  }
+
+  
+  

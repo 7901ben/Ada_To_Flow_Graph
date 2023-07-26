@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Code To Flow Graph</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="banner-area">
+        <div class="wrapper">
+          <div class="navigation">
+            <div class="logo">
+              Flow Graph Generator 
+            </div>
+            <nav class="head">
+              <a href="#">Home</a>
+              <a href="#">Import File</a>
+              
+              
+            </nav>
+          </div>
+      
+          <div class="banner-text">
+
+            <div class = "container">
+            <div  class="text-area" >
+                <textarea id = "textArea" rows = "20" cols = "100" class = text name = "description" placeholder="Type Here ..."  >
+                   
+                 </textarea><br>
+                <a onclick="getText()" class = "submit" href="#">Submit</a>
+            </div>
+        </div>
+
+          </div>
+        </div>
+      </div>
+    
+
+
+      <input type="file" id="upload">
+
+     <br>
+
+     <pre id="outputBx"></pre>
+
+
+
+      
+      <div class="link-area">
+        <a href=" " target="_blank">Diagram </a>
+      </div>
+
+      <canvas id="myCanvas" width="1400" height="1000" style="border:1px solid #d3d3d3;">
+        Your browser does not support the HTML5 canvas tag.</canvas>
+
+      <script src = "script1.js"> </script>
+    
+</body>
+</html>
